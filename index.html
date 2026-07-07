@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aditi Tiwari — Signal &amp; Intelligence</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<canvas id="heroCanvas"></canvas>
+<div class="grain"></div>
+<div class="cursor-dot"></div>
+<div class="cursor-ring"></div>
+
+<div class="rail">
+  <div class="rail-dot active" data-target="#hero" data-label="Signal"></div>
+  <div class="rail-dot" data-target="#about" data-label="About"></div>
+  <div class="rail-dot" data-target="#journey" data-label="Journey"></div>
+  <div class="rail-dot" data-target="#skills" data-label="Skills"></div>
+  <div class="rail-dot" data-target="#projects" data-label="Projects"></div>
+  <div class="rail-dot" data-target="#achievements" data-label="Wins"></div>
+  <div class="rail-dot" data-target="#contact" data-label="Contact"></div>
+</div>
+
+<!-- HERO -->
+<section class="hero" id="hero">
+  <div class="hero-tag mono">SYS://booting_profile <span class="cursor-blink"></span></div>
+  <h1>Aditi<br>Tiwari</h1>
+  <div class="hero-roles">
+    <div class="role-track" id="roleTrack">
+      <span><b>&gt;</b> AI / ML Engineer</span>
+      <span><b>&gt;</b> NLP &amp; Generative AI Builder</span>
+      <span><b>&gt;</b> Data Science Practitioner</span>
+      <span><b>&gt;</b> SIH 2025 Grand Finalist</span>
+    </div>
+  </div>
+  <p class="hero-desc">I turn raw signal — audio, text, behavior — into systems that respond intelligently. Currently building voice interaction models, generative content tools, and ML pipelines out of Gorakhpur, India.</p>
+  <div class="hero-cta">
+    <a href="#projects" class="btn btn-primary" data-hover>View Projects →</a>
+    <a href="mailto:khushisweet979@gmail.com" class="btn btn-ghost" data-hover>Get in Touch</a>
+  </div>
+  <div class="scroll-hint"><div class="line"></div>SCROLL · DRAG THE SKILLS GALAXY BELOW</div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+  <span class="eyebrow">01 · About</span>
+  <h2 class="section-title reveal">B.Tech CSE (AI &amp; ML), building things that listen and respond.</h2>
+  <div class="about-grid">
+    <div class="about-text reveal">
+      <p>I'm a Computer Science undergraduate at <strong>Buddha Institute of Technology, Gorakhpur (AKTU)</strong>, specializing in AI &amp; Machine Learning. Most of my work sits at the intersection of <strong>NLP, generative AI, and applied data science</strong> — models that take in messy real-world signal and turn it into something useful.</p>
+      <p>That's shown up as a <strong>voice-based interaction system</strong> that reached the Grand Finals of Smart India Hackathon 2025, a <strong>generative caption tool</strong> shipped as a working Gradio app, and a <strong>sentiment-driven wellness tracker</strong> that respects user privacy by design. Alongside building, I've interned in applied ML at IIT (BHU) Varanasi and led outreach for a 500+ student developer community.</p>
+    </div>
+    <div class="mission-card reveal">
+      <span class="mono-label">Mission</span>
+      <p>AI shouldn't just automate tasks — it should understand context well enough to respond like it's paying attention. That's the thread through every project I build.</p>
+    </div>
+  </div>
+  <div class="stat-row">
+    <div class="stat reveal"><div class="num" data-count="3" data-suffix="">0</div><div class="lbl mono">PROJECTS SHIPPED</div></div>
+    <div class="stat reveal"><div class="num" data-count="2" data-suffix="">0</div><div class="lbl mono">INTERNSHIPS / ROLES</div></div>
+    <div class="stat reveal"><div class="num" data-count="4" data-suffix="+">0</div><div class="lbl mono">HACKATHON RESULTS</div></div>
+    <div class="stat reveal"><div class="num" data-count="500" data-suffix="+">0</div><div class="lbl mono">STUDENTS REACHED</div></div>
+  </div>
+</section>
+
+<!-- JOURNEY / EXPERIENCE -->
+<section id="journey">
+  <span class="eyebrow">02 · Journey</span>
+  <h2 class="section-title reveal">Where the work has happened.</h2>
+  <p class="section-sub reveal">Two roles, two very different signals — one technical, one people-facing.</p>
+  <div class="timeline">
+    <div class="tl-item reveal">
+      <span class="tl-date mono">OCT 2025 — NOV 2025</span>
+      <div class="tl-role">AI/ML &amp; Data Science Intern</div>
+      <div class="tl-org">Technex, IIT (BHU) Varanasi <span>· Varanasi, India</span></div>
+      <ul class="tl-bullets">
+        <li>Engineered predictive and classification models using TensorFlow and Scikit-learn on real-world datasets, achieving optimized convergence rates.</li>
+        <li>Architected end-to-end ML pipelines, automating data preprocessing and EDA to cut manual overhead by 30%.</li>
+        <li>Deployed statistical validation modules and visualization dashboards to improve model transparency.</li>
+      </ul>
+    </div>
+    <div class="tl-item reveal">
+      <span class="tl-date mono">JUL 2025 — SEP 2025</span>
+      <div class="tl-role">Outreach &amp; PR Head</div>
+      <div class="tl-org">GeeksforGeeks (GFG) Campus Body, BIT <span>· Gorakhpur, India</span></div>
+      <ul class="tl-bullets">
+        <li>Spearheaded outreach strategy and institutional partnerships, growing campus chapter participation and digital footprint.</li>
+        <li>Coordinated with alumni and industry leaders to run coding workshops and hackathons for 500+ students.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+  <span class="eyebrow">03 · Signal Range</span>
+  <h2 class="section-title reveal">Skills, mapped as a constellation.</h2>
+  <p class="section-sub reveal">Drag to rotate. Each cluster is a skill category orbiting the core; hover a node for detail.</p>
+
+  <div class="galaxy-wrap reveal">
+    <canvas id="galaxyCanvas"></canvas>
+    <div id="galaxyLabels"></div>
+    <div class="galaxy-legend">
+      <span><i style="background:var(--cyan)"></i>AI/ML &amp; Deep Learning</span>
+      <span><i style="background:var(--violet)"></i>Data Science &amp; Engineering</span>
+      <span><i style="background:var(--magenta)"></i>Programming &amp; Tools</span>
+      <span><i style="background:var(--amber)"></i>Specialized</span>
+    </div>
+  </div>
+
+  <div class="skill-groups">
+    <div class="skill-group reveal">
+      <div class="skill-group-head"><h3>AI/ML &amp; Deep Learning</h3><span>CORE</span></div>
+      <div class="bars">
+        <div class="bar-row"><span class="name">Neural Networks</span><div class="bar-track"><div class="bar-fill" data-w="88"></div></div></div>
+        <div class="bar-row"><span class="name">TensorFlow</span><div class="bar-track"><div class="bar-fill" data-w="85"></div></div></div>
+        <div class="bar-row"><span class="name">PyTorch</span><div class="bar-track"><div class="bar-fill" data-w="82"></div></div></div>
+        <div class="bar-row"><span class="name">Scikit-learn</span><div class="bar-track"><div class="bar-fill" data-w="90"></div></div></div>
+        <div class="bar-row"><span class="name">Generative AI</span><div class="bar-track"><div class="bar-fill" data-w="86"></div></div></div>
+      </div>
+    </div>
+    <div class="skill-group reveal">
+      <div class="skill-group-head"><h3>Data Science &amp; Engineering</h3><span>APPLIED</span></div>
+      <div class="bars">
+        <div class="bar-row"><span class="name">NLP</span><div class="bar-track"><div class="bar-fill" data-w="88"></div></div></div>
+        <div class="bar-row"><span class="name">EDA &amp; Feature Eng.</span><div class="bar-track"><div class="bar-fill" data-w="90"></div></div></div>
+        <div class="bar-row"><span class="name">Statistical Analysis</span><div class="bar-track"><div class="bar-fill" data-w="80"></div></div></div>
+        <div class="bar-row"><span class="name">Pandas / NumPy</span><div class="bar-track"><div class="bar-fill" data-w="92"></div></div></div>
+        <div class="bar-row"><span class="name">Data Visualization</span><div class="bar-track"><div class="bar-fill" data-w="83"></div></div></div>
+      </div>
+    </div>
+    <div class="skill-group reveal">
+      <div class="skill-group-head"><h3>Programming &amp; Tools</h3><span>DAILY</span></div>
+      <div class="bars">
+        <div class="bar-row"><span class="name">Python (Adv.)</span><div class="bar-track"><div class="bar-fill" data-w="95"></div></div></div>
+        <div class="bar-row"><span class="name">SQL</span><div class="bar-track"><div class="bar-fill" data-w="78"></div></div></div>
+        <div class="bar-row"><span class="name">Java</span><div class="bar-track"><div class="bar-fill" data-w="65"></div></div></div>
+        <div class="bar-row"><span class="name">Git</span><div class="bar-track"><div class="bar-fill" data-w="80"></div></div></div>
+        <div class="bar-row"><span class="name">Linux / Bash</span><div class="bar-track"><div class="bar-fill" data-w="74"></div></div></div>
+      </div>
+    </div>
+    <div class="skill-group reveal">
+      <div class="skill-group-head"><h3>Specialized</h3><span>EXPANDING</span></div>
+      <div class="bars">
+        <div class="bar-row"><span class="name">RPA</span><div class="bar-track"><div class="bar-fill" data-w="70"></div></div></div>
+        <div class="bar-row"><span class="name">Arduino / Robotics</span><div class="bar-track"><div class="bar-fill" data-w="60"></div></div></div>
+        <div class="bar-row"><span class="name">Cloud API Integration</span><div class="bar-track"><div class="bar-fill" data-w="75"></div></div></div>
+        <div class="bar-row"><span class="name">End-to-End ML Pipelines</span><div class="bar-track"><div class="bar-fill" data-w="84"></div></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+  <span class="eyebrow">04 · Projects</span>
+  <h2 class="section-title reveal">Three signals, three responses.</h2>
+  <p class="section-sub reveal">Click a project to expand it.</p>
+  <div class="projects">
+
+    <div class="project-card reveal tilt" onclick="this.classList.toggle('open')">
+      <div class="project-top">
+        <div>
+          <span class="project-tag">SIH 2025 · Grand Finalist</span>
+          <div class="project-title">Audio Language Model</div>
+          <div class="project-stack">
+            <span class="chip">Python</span><span class="chip">PyTorch</span><span class="chip">NLP</span>
+          </div>
+        </div>
+        <div class="project-toggle">+</div>
+      </div>
+      <div class="project-body">
+        <p>A voice-based interaction system built on NLP, designed to understand diverse audio inputs and generate coherent, context-aware responses. Selected as a National Grand Finalist at Smart India Hackathon 2025, competing against teams nationwide.</p>
+        <p>Focus areas: high-fidelity language understanding from raw audio, and optimizing the response-generation pipeline for real-time interaction.</p>
+      </div>
+    </div>
+
+    <div class="project-card reveal tilt" onclick="this.classList.toggle('open')">
+      <div class="project-top">
+        <div>
+          <span class="project-tag">Generative AI · Shipped Tool</span>
+          <div class="project-title">AI Social Media Caption Generator</div>
+          <div class="project-stack">
+            <span class="chip">Generative AI</span><span class="chip">Gradio</span><span class="chip">Python</span>
+          </div>
+        </div>
+        <div class="project-toggle">+</div>
+      </div>
+      <div class="project-body">
+        <p>An automated content-generation tool powered by LLM APIs, reaching 85% relevant caption accuracy for end-users — tuned for SEO-friendly, platform-ready output.</p>
+        <p>Shipped as a real-time web interface using Gradio, so creators can generate captions instantly without touching code.</p>
+      </div>
+    </div>
+
+    <div class="project-card reveal tilt" onclick="this.classList.toggle('open')">
+      <div class="project-top">
+        <div>
+          <span class="project-tag">Applied Data Science</span>
+          <div class="project-title">Mental Health &amp; Mood Tracker</div>
+          <div class="project-stack">
+            <span class="chip">Sentiment Analysis</span><span class="chip">VADER/TextBlob</span><span class="chip">PostgreSQL</span>
+          </div>
+        </div>
+        <div class="project-toggle">+</div>
+      </div>
+      <div class="project-body">
+        <p>An AI-driven tracker that uses VADER and TextBlob sentiment analysis to surface personalized wellness suggestions from a user's logged entries.</p>
+        <p>Backed by a secure PostgreSQL logging system that visualizes mood trends over time while maintaining 100% user data privacy compliance.</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ACHIEVEMENTS -->
+<section id="achievements">
+  <span class="eyebrow">05 · Recognition</span>
+  <h2 class="section-title reveal">Hackathons, bootcamps, results.</h2>
+  <div class="ach-grid">
+    <div class="ach-card reveal tilt">
+      <span class="ach-kind">Hackathon</span>
+      <h4>Smart India Hackathon 2025</h4>
+      <p>Grand Finalist — national-level, for the Audio Language Model project.</p>
+    </div>
+    <div class="ach-card reveal tilt">
+      <span class="ach-kind">Hackathon</span>
+      <h4>TechSprint — GNIOT GdG Hackathon</h4>
+      <p>Winner.</p>
+    </div>
+    <div class="ach-card reveal tilt">
+      <span class="ach-kind">Hackathon</span>
+      <h4>TECH YUVA 9.0 (2024)</h4>
+      <p>Winner &amp; Runner-up across editions.</p>
+    </div>
+    <div class="ach-card reveal tilt">
+      <span class="ach-kind">Hackathon</span>
+      <h4>FSM Hackathon 4.0, New Delhi</h4>
+      <p>Finalist.</p>
+    </div>
+    <div class="ach-card reveal tilt">
+      <span class="ach-kind">Bootcamp</span>
+      <h4>IDE Bootcamp, JIET Jodhpur</h4>
+      <p>Shortlisted for the Innovation, Design &amp; Entrepreneurship Bootcamp run by the Ministry of Education's Innovation Cell.</p>
+    </div>
+    <div class="ach-card reveal tilt">
+      <span class="ach-kind">Certification</span>
+      <h4>RPA Bootcamp &amp; AI Workshop</h4>
+      <p>NIELIT Gorakhpur (RPA) and IIT Delhi – TRYST (AI Workshop).</p>
+    </div>
+  </div>
+</section>
+
+<!-- EDUCATION -->
+<section id="education">
+  <span class="eyebrow">06 · Education</span>
+  <div class="edu-card reveal">
+    <div>
+      <h3>Buddha Institute of Technology, Gorakhpur (AKTU)</h3>
+      <div class="edu-sub">B.Tech in Computer Science &amp; Engineering (AI &amp; ML) · Gorakhpur, India</div>
+      <div class="edu-course">Relevant coursework: Data Structures, Machine Learning Algorithms, Neural Networks, Database Management.</div>
+    </div>
+    <div class="edu-years mono">2023 — 2027</div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <span class="eyebrow">07 · Signal Out</span>
+  <h2 class="section-title reveal">Send a signal.</h2>
+  <p class="section-sub reveal">Open to internships, research collaborations, and interesting problems.</p>
+  <div class="contact-wrap">
+    <div class="signal-box reveal">
+      <p style="color:var(--text-muted);font-size:15px;line-height:1.8;">The fastest way to reach me is email — I check it daily. For code, GitHub's the place; for a fuller history, LinkedIn.</p>
+    </div>
+    <div class="contact-links reveal">
+      <a class="contact-link" href="mailto:khushisweet979@gmail.com" data-hover><span class="k">Email</span><span>khushisweet979@gmail.com →</span></a>
+      <a class="contact-link" href="tel:+919125331490" data-hover><span class="k">Phone</span><span>+91 91253 31490 →</span></a>
+      <a class="contact-link" href="https://linkedin.com/in/aditi-tiwari-599332282" target="_blank" rel="noopener" data-hover><span class="k">LinkedIn</span><span>aditi-tiwari-599332282 →</span></a>
+      <a class="contact-link" href="https://github.com/Aditi-2-7" target="_blank" rel="noopener" data-hover><span class="k">GitHub</span><span>Aditi-2-7 →</span></a>
+      <a class="contact-link" href="#" data-hover><span class="k">Location</span><span>Gorakhpur, India</span></a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  Built to show the work, not just list it.
+  <span class="sig mono">— Aditi Tiwari, 2026</span>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script src="https://unpkg.com/three@0.128.0/examples/js/controls/OrbitControls.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
